@@ -40,7 +40,7 @@ const Carosel = () => {
         ]
       };
   return (
-    <div className='max-w-[1400px] h-[740px] w-full m-auto relative bg-black '>
+    <div className=' bg-black '>
         <h2 className='text-white'> AVAILABLE</h2><br/>
         <Slider {...settings}>
           <div className='card'>
@@ -53,7 +53,7 @@ const Carosel = () => {
           <img src='https://cdn.thewirecutter.com/wp-content/media/2020/11/vr-headset-2048px-8993-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024' alt='pic1'/>
           </div>
           <div className='card'> 
-            <h3>4</h3>
+            <img src='https://www.respiratorytherapyzone.com/wp-content/uploads/2022/06/normal-breathing-and-respiration-1.png' alt="res"/>
           </div>
           <div className='card'>
             <h3>5</h3>
