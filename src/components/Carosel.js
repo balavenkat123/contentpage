@@ -6,11 +6,11 @@ import Slider from "react-slick";
 
 const Carosel = () => {
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 4,
+        slidesToScroll: 4,
         initialSlide: 0,
         responsive: [
           {
@@ -56,16 +56,16 @@ const Carosel = () => {
             <img src='https://www.respiratorytherapyzone.com/wp-content/uploads/2022/06/normal-breathing-and-respiration-1.png' alt="res"/>
           </div>
           <div className='card'>
-            <h3>5</h3>
+            <img src='https://cdn.mos.cms.futurecdn.net/YMtayWGwpiau57vwqDrDad.jpg' alt='pic1'/>
           </div>
           <div className='card'>
-            <h3>6</h3>
+            <img src='https://cdn.mos.cms.futurecdn.net/YMtayWGwpiau57vwqDrDad.jpg' alt='pic1'/>
           </div>
           <div className='card'>
-            <h3>7</h3>
+          <img src='https://cdn.mos.cms.futurecdn.net/YMtayWGwpiau57vwqDrDad.jpg' alt='pic1'/>
           </div>
           <div >
-            <h3>8</h3>
+          <img src='https://cdn.mos.cms.futurecdn.net/YMtayWGwpiau57vwqDrDad.jpg' alt='pic1'/>
           </div>
         </Slider>
       </div>
