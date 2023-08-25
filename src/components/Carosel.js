@@ -7,10 +7,10 @@ import Slider from "react-slick";
 const Carosel = () => {
     var settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         initialSlide: 0,
         responsive: [
           {
@@ -25,8 +25,8 @@ const Carosel = () => {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToShow: 3,
+              slidesToScroll: 3,
               initialSlide: 2
             }
           },
@@ -41,16 +41,16 @@ const Carosel = () => {
       };
   return (
     <div className='max-w-[1400px] h-[740px] w-full m-auto relative bg-black '>
-        <h2 className='text-white'> Responsive </h2>
+        <h2 className='text-white'> AVAILABLE</h2><br/>
         <Slider {...settings}>
           <div className='card'>
             <img src='https://cdn.mos.cms.futurecdn.net/YMtayWGwpiau57vwqDrDad.jpg' alt='pic1'/>
           </div>
           <div className='card' >
-            <h3>2</h3>
+          <img src='https://e1.pxfuel.com/desktop-wallpaper/568/737/desktop-wallpaper-medical-heart-heart-biology.jpg' alt='pic1'/>
           </div>
           <div className='card'>
-            <h3>3</h3>
+          <img src='https://cdn.thewirecutter.com/wp-content/media/2020/11/vr-headset-2048px-8993-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024' alt='pic1'/>
           </div>
           <div className='card'> 
             <h3>4</h3>

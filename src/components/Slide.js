@@ -26,7 +26,11 @@ const frontPic=()=>{
 }
 
   return (
+    <div className='bg-black '>
+      <center> <h1 className='text-white'>COURSE-CONTENT</h1></center>
+     
     <div className='max-w-[1400px] h-[740px] w-full m-auto py-12 px-4 relative bg-black flex justify-center '>
+      
         <div style={{backgroundImage: `url(${slides[currentPic].url}) `}} className='w-2/3  h-full rounded-2xl bg-center bg-cover duration-200 group ' ></div> 
         <div className=' absolute top-[50%] -translate-x-[-50%] translate-y-[-50%] left-5 rounded-full text-white cursor-pointer'>
           <MdArrowBackIosNew onClick={prevPic} size={30}/>
@@ -36,7 +40,7 @@ const frontPic=()=>{
         </div>   
        
     </div>
-    
+    </div>
   )
 }
 
